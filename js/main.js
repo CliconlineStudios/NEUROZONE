@@ -327,9 +327,10 @@ function save(){
 //alertas 2                      
   function msj2() {
     Swal.fire({
-      icon: 'info',
-      title: 'Opción Disponible',
-      text: 'Próximamente',
+      icon: 'success',
+      title: 'Tarjeta Digital',
+      text: 'Link Copiado a Portapapeles',
+      showCloseButton: true,
       footer: 'Neuro Zone'
     });
   
@@ -360,7 +361,7 @@ function save(){
         title: 'Opciones de Pago',
         icon: 'success',
         html:
-       '<a href="https://api.whatsapp.com//send?text=Enviado%20desde%20la%20App%20de%20Cliconline%20Ver%20Opciones%20de%20Pago%20https://neurozoneuio.blogspot.com/p/opciones-de-pago.html" class="botonp" ><span class="fa fa-share-alt"></span >&nbsp;Compartir nro. Cuenta</a>',
+       '<a href="https://api.whatsapp.com//send?text=NeuroZone%20Opciones%20de%20Pago%20https://neurozoneuio.blogspot.com/p/opciones-de-pago.html" class="botonp" ><span class="fa fa-share-alt"></span >&nbsp;Compartir nro. Cuenta</a>',
         showCloseButton: true,
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
