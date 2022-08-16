@@ -330,7 +330,7 @@ function save(){
       icon: 'info',
       title: 'Opción Disponible',
       text: 'Próximamente',
-      footer: '<a href="https://cliconline.github.io/CliconlineStudios/index.html">Tarjeta De Prueba</a>'
+      footer: 'Neuro Zone'
     });
   
    
@@ -342,32 +342,6 @@ function save(){
     window.open(url); 
    };
   
-  function ftuser() {
-      Swal.fire({
-          title: 'Hostería Los Cedros',
-          text: 'Alojamiento Mindo-Ecuador',
-          imageUrl: 'img/logocedros.png',
-          imageWidth: 100,
-          confirmButtonText: 'Añadir a Contactos',
-          showCloseButton: 'true',
-          showCancelButton: true,
-    
-      
-        }).then((result) => {
-          if (result.isConfirmed) {
-            save();
-            Swal.fire({
-              position: 'top-end',
-              icon: 'success',
-              title: 'Descarga Correcta',
-              showConfirmButton: false,
-              timer: 1500
-            })
-          }
-        })
-  
-   
-  };
   
   function abrirpagos(){
     let urla = `https://neurozoneuio.blogspot.com/p/opciones-de-pago.html`;
